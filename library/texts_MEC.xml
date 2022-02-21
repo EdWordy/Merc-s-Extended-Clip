@@ -1,0 +1,44 @@
+<t>
+
+	<!-- Weapon tooltips -->
+
+	<weapon_plasmathrower_name pid="165799201" id="165711011">
+		<EN>Plasma thrower</EN>
+	</weapon_plasmathrower_name>
+	<weapon_plasmathrower_desc pid="165799202" id="165711012">
+		<EN>Shoots a spread of super-heated plasma, very effective against most targets.</EN>
+	</weapon_plasmathrower_desc>
+	
+	<weapon_laserrifle_name pid="165799301" id="165721011">
+		<EN>Laser rifle</EN>
+	</weapon_laserrifle_name>
+	<weapon_laserrifle_desc pid="165799302" id="165721012">
+		<EN>A laser weapon, causes mild and severe burns.
+		
+		NOTE: Ineffective against large alien life.</EN>
+	</weapon_laserrifle_desc>
+
+	<weapon_laserpistol_name pid="165799401" id="165731011">
+		<EN>Laser pistol</EN>
+	</weapon_laserpistol_name>
+	<weapon_laserpistol_desc pid="165799402" id="165731012">
+		<EN>A small laser weapon, causes mild and severe burns.</EN>
+	</weapon_laserpistol_desc>
+	
+	<!-- Condition tooltips -->
+	
+	<condition_laserburn_name id="165799304">
+		<EN>Laser Burn</EN>
+	</condition_laserburn_name>
+	<condition_laserburn_desc id="165799305">
+		<EN>I've been singed by a laser!</EN>
+	</condition_laserburn_desc>
+	
+	<condition_plasmaburn_name id="165799204">
+		<EN>Plasma Burn</EN>
+	</condition_plasmaburn_name>
+	<condition_plasmaburn_desc id="165799205">
+		<EN>I've been burned by plasma, help!</EN>
+	</condition_plasmaburn_desc>
+	
+</t>

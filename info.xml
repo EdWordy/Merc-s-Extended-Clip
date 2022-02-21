@@ -1,0 +1,29 @@
+<mod>
+  <name>Merc's Extended Clip</name>
+  <author>TedDraws#0648 aka Mercenary</author>
+  <description>A rebalance of the food, and industrial production systems.
+version 1.7
+  
+NOW WITH NEW ITEMS!
+ 
+FOOD PRODUCTION
+-Fruits now yields 3 units
+-Roots now yields 3 units
+-Nuts now yields 2 units
+-Artificial Meat now yields 2 units
+ 
+INDUSTRIAL PRODUCTION
+-Ice to Water now takes 0.1 ice (instead of 0.2)
+-Chemicals Carbon to Plastics now takes 0.5 carbon (instead of 1)
+-Rebalanced all weapons production costs
+
+NEW WEAPONS
+-Laser rifle
+-Plasma thrower
+  </description>
+  <minimumLoaderVersion>0.10.0</minimumLoaderVersion>
+  <gameVersions>
+    <v>0.14.1</v>
+  </gameVersions>
+  <modid>1657</modid>
+</mod>

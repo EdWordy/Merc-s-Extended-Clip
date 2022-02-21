@@ -1,0 +1,575 @@
+<AllAnimations>
+
+	<animations>
+
+		<!-- flameThrower Icon -->
+
+		<ba n="flameThrower01inv" ks="1" id="165701001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="1" sx="1" r="0" bi="0" filename="165702000" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<!-- Laser rifle Icon -->
+
+		<ba n="laserRifle01inv" ks="1" id="165701002" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="1" sx="1" r="0" bi="0" filename="165702001" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<!-- Laser pistol Icon -->
+		
+		<ba n="laserPistol01inv" ks="1" id="165701003" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="1" sx="1" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="1" sx="1" r="0" bi="0" filename="165702002" vf="1:1"/>
+			</items>
+		</ba>
+		
+		<!-- Fire
+		
+		<ba f="30" id="165799020" ks="1" n="directionalFlame1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos filename="" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>		
+		
+		-->
+		
+		<!-- flameThrower weapon directional Anims -->
+		
+		<ba f="24" id="165799010" ks="1,2,3,4" n="flameThrower1-1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="2" y="1" />
+						<p col="-1" f="2" r="-5" sx="1" sy="1" x="6" y="3" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="6" y="3" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="4" y="2" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8251" filename="165799001.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-4" y="-4" />
+			</items>
+		</ba>
+		<ba f="24" id="165799011" ks="1,2,3" n="flameThrower1-2">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="0" sx="1" sy="1" x="0" y="2" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="0" y="1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8252" filename="165799002.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="165799012" ks="1,2,3,4" n="flameThrower1-3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="5" sx="1" sy="1" x="-4" y="2" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="-4" y="2" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="-2" y="1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8253" filename="165799003.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="165799013" ks="1,2,3,4" n="flameThrower1-4">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="1" y="-1" />
+						<p col="-1" f="2" r="-5" sx="1" sy="1" x="5" y="-1" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="5" y="-1" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="3" y="-1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8254" filename="165799004.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="165799014" ks="1,2,3,4" n="flameThrower1-6">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="5" sx="1" sy="1" x="-2" y="0" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="-2" y="0" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="-1" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8255" filename="165799006.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="165799015" ks="1,2,3,4" n="flameThrower1-7">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="-1" y="1" />
+						<p col="-1" f="2" r="-5" sx="1" sy="1" x="3" y="-1" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="3" y="-1" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="1" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8256" filename="165799007.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="165799016" ks="1" n="flameThrower1-8">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8257" filename="165799008.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="165799017" ks="1,2,3,4" n="flameThrower1-9">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="1" y="-1" />
+						<p col="-1" f="2" r="5" sx="1" sy="1" x="-3" y="-3" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="-3" y="-3" />
+						<p col="-1" f="4" r="0" sx="1" sy="1" x="-1" y="-2" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="8258" filename="165799009.png" bi="0" r="0" sx="1" sy="1" vf="1:1" x="0" y="0" />
+			</items>
+		</ba>
+
+		<!-- Fixed Pistol directional Anims
+		
+		<ba f="24" id="8949" ks="1,2,3,4" n="laserPistol1-1">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="-10" sx="1" sy="1" x="2" y="1" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="2" y="1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="4756" bi="0" r="0" sx="1" sy="1" vf="1:1" x="-12" y="-2" />
+			</items>
+		</ba>
+		<ba f="24" id="8950" ks="1,2,3" n="laserPistol1-2">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="0" sx="1" sy="1" x="0" y="1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="4754" bi="0" r="0" sx="1" sy="1" vf="1:1" x="12" y="-12" />
+			</items>
+		</ba>
+		<ba f="24" id="8951" ks="1,2,3" n="laserPistol1-3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="10" sx="1" sy="1" x="-2" y="1" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="4753" bi="0" r="0" sx="1" sy="1" vf="1:1" x="6" y="-4" />
+			</items>
+		</ba>
+		<ba f="24" id="8952" ks="1,2,3" n="laserPistol1-4">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="-10" sx="1" sy="1" x="2" y="1" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="1" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+
+				<assetPos a="4752" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="10" y="3" />
+			</items>
+		</ba>
+		<ba f="24" id="8953" ks="1,2,3" n="laserPistol1-6">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="10" sx="1" sy="1" x="-1" y="0" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="-1" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+
+				<assetPos a="4752" bi="0" r="0" sx="1" sy="1" vf="1:1" x="10" y="-1" />
+			</items>
+		</ba>
+		<ba f="24" id="8954" ks="1,2,3" n="laserPistol1-7">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="-10" sx="1" sy="1" x="2" y="0" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="2" y="-1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="4751" bi="0" r="0" sx="-1" sy="1" vf="1:1" x="5" y="8" />
+			</items>
+		</ba>
+		<ba f="24" id="8955" ks="1,2,3" n="laserPistol1-8">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+						<p col="-1" f="2" r="0" sx="1" sy="1" x="0" y="-1" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="4750" bi="0" r="0" sx="1" sy="1" vf="1:1" x="1" y="0" />
+			</items>
+		</ba>
+		<ba f="24" id="8956" ks="1,2,3" n="laserPistol1-9">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="2" />
+						<p col="-1" f="2" r="-10" sx="1" sy="1" x="2" y="4" />
+						<p col="-1" f="3" r="0" sx="1" sy="1" x="2" y="3" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="4751" bi="0" r="0" sx="1" sy="1" vf="1:1" x="14" y="2" />
+			</items>
+		</ba>
+		
+		-->
+		
+		<ba f="20" id="8935" ks="1,2,3,4" n="muzzleBlue1-2">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="5141" bi="0" r="0" sx="1" sy="1" vf="1:1,2:0" x="10" y="-6" />
+				<assetPos a="5142" bi="0" r="0" sx="1" sy="1" vf="1:0,2:1,3:0" x="12" y="-6" />
+				<assetPos a="5143" bi="0" r="0" sx="1" sy="1" vf="1:0,3:1,4:0" x="12" y="-6" />
+				<assetPos a="5144" bi="0" r="0" sx="1" sy="1" vf="1:0,4:1" x="12" y="-6" />
+			</items>
+		</ba>
+		
+		<ba f="20" id="8936" ks="1,2,3,4" n="muzzleBlue1-3">
+			<bones>
+				<b id="0">
+					<pos>
+						<p col="-1" f="1" r="0" sx="1" sy="1" x="0" y="0" />
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos a="5145" bi="0" r="0" sx="-1" sy="1" vf="1:1,2:0" x="30" y="0" />
+				<assetPos a="5146" bi="0" r="0" sx="-1" sy="1" vf="1:0,2:1,3:0" x="30" y="0" />
+				<assetPos a="5147" bi="0" r="0" sx="-1" sy="1" vf="1:0,3:1,4:0" x="30" y="0" />
+				<assetPos a="5148" bi="0" r="0" sx="-1" sy="1" vf="1:0,4:1" x="30" y="0" />
+			</items>
+		</ba>
+		
+		<!-- Placeholder Anims so this shit doesn't crash the loader
+		
+		<ba n="Flame4" ks="1" id="165731001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731001.png"/>
+			</items>
+		</ba>
+		
+		<ba n="Flame8" ks="1" id="165731002" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731002.png"/>
+			</items>
+		</ba>
+		
+		<ba n="Flame1" ks="1" id="165731003" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731003.png"/>
+			</items>
+		</ba>
+		
+		<ba n="Flame2" ks="1" id="165731004" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731004.png"/>
+			</items>
+		</ba>	
+
+		<ba n="Flame3" ks="1" id="165731005" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731005.png"/>
+			</items>
+		</ba>		
+		
+		<ba n="Flame6" ks="1" id="165731006" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731006.png"/>
+			</items>
+		</ba>
+		
+		<ba n="Flame7" ks="1" id="165731007" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731007.png"/>
+			</items>
+		</ba>
+		
+		<ba n="Flame9" ks="1" id="165731008" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165731008.png"/>
+			</items>
+		</ba>
+		
+		<ba n="FlameFire1" ks="1" id="165721001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165721001.png"/>
+			</items>
+		</ba>
+		
+		<ba n="FlameFire2" ks="1" id="165721002" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165721002.png"/>
+			</items>
+		</ba>
+		
+		<ba n="FlameFire3" ks="1" id="165721003" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165721003.png"/>
+			</items>
+		</ba>
+		
+		<ba n="FlameFire4" ks="1" id="165721004" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165721004.png"/>
+			</items>
+		</ba>
+		
+				<ba n="LockerTall1" ks="1" id="165729001" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165729001.png"/>
+			</items>
+		</ba>
+		
+		<ba n="LockerTall2" ks="1" id="165729002" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165729002.png"/>
+			</items>
+		</ba>
+		
+		<ba n="LockerSmall1" ks="1" id="165729003" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165729003.png"/>
+			</items>
+		</ba>
+		
+		<ba n="LockerSmall2" ks="1" id="165799004" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165729004.png"/>
+			</items>
+		</ba>
+		
+		<ba n="LockerMid1" ks="1" id="165729005" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165729005.png"/>
+			</items>
+		</ba>
+		
+				<ba n="LockerMid2" ks="1" id="165729006" f="30">
+			<bones>
+				<b id="0">
+					<pos>
+						<p f="1" y="0" x="0" sy="42" sx="62" r="0" col="-1"/>
+					</pos>
+				</b>
+			</bones>
+			<items>
+				<assetPos y="0" x="0" sy="512" sx="512" r="0" bi="0" filename="165729006.png"/>
+			</items>
+		</ba>
+		
+		-->
+		
+	</animations>
+
+</AllAnimations>

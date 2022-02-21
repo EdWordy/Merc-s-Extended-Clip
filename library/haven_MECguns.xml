@@ -1,0 +1,478 @@
+<data>
+
+	<Item>
+	
+		<!-- flameThrower -->
+	
+		<item _annotation="Plasma thrower" eid="0" handness="TwoHand" mid="165799200">
+		
+			<name tid="165711011"/>
+			<desc tid="165711012"/>
+
+			<anims>
+				<l dir="D1" inFront="false" leftArmInFront="true" leftBehindItem="false" offX="-1" offY="-2" rightArmInFront="false" rightBehindItem="true" type="ItemSingleS" useFlipped="false">
+					<animation aid="flameThrower1-3" />
+				</l>
+				<l dir="D6" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="2" offY="0" rightArmInFront="false" rightBehindItem="false" type="ItemSingleS" useFlipped="true">
+					<animation aid="flameThrower1-2" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="-4" offY="-4" rightArmInFront="false" rightBehindItem="false" type="ItemSingleS" useFlipped="true">
+					<animation aid="flameThrower1-6" />
+				</l>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="6" offY="-5" rightArmInFront="true" rightBehindItem="false" type="ItemSingleS" useFlipped="false">
+					<animation aid="flameThrower1-1" />
+				</l>
+				<l dir="D9" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="3" offY="-7" rightArmInFront="true" rightBehindItem="false" type="ItemSingleS" useFlipped="true">
+					<animation aid="flameThrower1-7" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" offX="-3" offY="-2" rightArmInFront="true" rightBehindItem="false" type="ItemSingleS" useFlipped="true">
+					<animation aid="flameThrower1-6" />
+				</l>
+			</anims>
+
+			<invIcon aid="flameThrower01inv" />
+			<fabricateable cat="Weapons">
+				<GUIAnim aid="flameThrower01inv" />
+				<cost buildTools="25" partsPerTile="1" type="Defined">
+					<resources>
+						<l _annotation="Steel Plates" consumeEvery="1" element="1922" howMuch="1" />
+						<l _annotation="Plastics" consumeEvery="1" element="175" howMuch="1" />
+						<l _annotation="Chemicals" element="176" consumeEvery="2" howMuch="1" />
+					</resources>
+					<difficultyLevel level="3" skill="Construction" />
+				</cost>
+			</fabricateable>
+			
+			<weapon fullLight="true" gunType="Rifle" id="0" speed="15" type="Gun" weaponSkillLevel="3">
+				<flare>
+					<flareProjectile aid="smallProjectile1" />
+					<flareEffect effect="718" />
+				</flare>
+				<gunModes>
+					<l accuracy="-10" afterCool="0.75" defMode="true" preCool="0.25" projectiles="5" type="MultiShot" />
+				</gunModes>
+				<weaponAnims>
+					<l dir="D1" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="true" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-1" />
+					</l>
+					<l dir="D2" inFront="true" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-2" />
+					</l>
+					<l dir="D3" inFront="true" leftArmInFront="true" leftBehindItem="true" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-3" />
+					</l>
+					<l dir="D4" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-4" />
+					</l>
+					<l dir="D6" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-6" />
+					</l>
+					<l dir="D7" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-7" />
+					</l>
+					<l dir="D8" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-8" />
+					</l>
+					<l dir="D9" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="flameThrower1-9" />
+					</l>
+				</weaponAnims>
+				<projectile aid="smallProjectile1" />
+				<hit aid="2explosionWallhit2" />
+				<audio noise="10.0">
+					<audio auid="2367" />
+				</audio>
+				<bulletEffect effect="755" />
+				<light color="3a4e59ff" powerTier="None" skipCenter="false">
+					<offset x="0" y="0" />
+					<flood brightness="300" distance="6" />
+				</light>
+				<damageTypes>
+					<l damageType="Explosion" type="Person">
+						<level max="2" min="1" />
+						<condition condition="165799203" />
+					</l>
+					<l damageTier="HeavyFurniture" type="Structure" />
+				</damageTypes>
+				<positions>
+					<l direction="D1" offX="-15" offY="23" />
+					<l direction="D2" offX="-5" offY="16" />
+					<l direction="D3" offX="10" offY="20" />
+					<l direction="D6" offX="16" offY="26" />
+					<l direction="D9" offX="14" offY="33" />
+					<l direction="D8" offX="4" offY="38" />
+					<l direction="D7" offX="-10" offY="34" />
+					<l direction="D4" offX="-16" offY="27" />
+				</positions>
+				<bulletEffectPos>
+					<l direction="D6" offX="-11" offY="-1" />
+					<l direction="D4" offX="9" offY="0" />
+					<l direction="D1" offX="8" offY="5" />
+					<l direction="D3" offX="-8" offY="4" />
+					<l direction="D2" offX="0" offY="4" />
+					<l direction="D7" offX="7" offY="-3" />
+					<l direction="D8" offX="0" offY="-4" />
+					<l direction="D9" offX="-7" offY="-4" />
+				</bulletEffectPos>
+				<muzzle instance="10_AllMuzzles_muzzle1" />
+			</weapon>
+			
+			<backPackItem id="747" />
+			
+		</item>
+		
+		
+		<!-- Laser Rifle -->
+		
+		<item _annotation="Laser rifle" eid="0" handness="TwoHand" mid="165799300">
+			<name tid="165721011" />
+			<desc tid="165721012" />
+			<anims>
+				<l dir="D1" inFront="true" leftArmInFront="true" leftBehindItem="false" offX="-1" offY="-2" rightArmInFront="false" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="false">
+					<animation aid="laserRifle1-3" />
+				</l>
+				<l dir="D6" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="2" offY="0" rightArmInFront="false" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserRifle1-2" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="-4" offY="-4" rightArmInFront="false" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserRifle1-6" />
+				</l>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="6" offY="-5" rightArmInFront="true" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="false">
+					<animation aid="laserRifle1-1" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" offX="3" offY="-7" rightArmInFront="true" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserRifle1-7" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" offX="-3" offY="-2" rightArmInFront="true" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserRifle1-6" />
+				</l>
+			</anims>
+			<invIcon aid="laserRifle01inv" />
+			<fabricateable cat="Weapons">
+				<GUIAnim aid="laserRifle01inv" />
+				<cost buildTools="25" partsPerTile="1" type="Defined">
+					<resources>
+						<l _annotation="Steel Plates" consumeEvery="2" element="1922" howMuch="1" />
+						<l _annotation="Plastics" consumeEvery="2" element="175" howMuch="1" />
+						<l _annotation="Energy Cell" consumeEvery="5" element="1926" howMuch="1" />
+					</resources>
+					<difficultyLevel level="4" skill="Industry" />
+				</cost>
+			</fabricateable>
+			<weapon fullLight="true" gunType="Rifle" id="0" speed="20" type="Gun" weaponSkillLevel="3">
+				<flare>
+					<flareProjectile aid="smallProjectileBlue3" />
+					<flareEffect effect="718" />
+				</flare>
+				<gunModes>
+					<l accuracy="10" afterCool="0.65" defMode="false" preCool="0.05" type="SnapShot" />
+				</gunModes>
+				<weaponAnims>
+					<l dir="D1" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-1" />
+					</l>
+					<l dir="D2" inFront="true" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-2" />
+					</l>
+					<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-3" />
+					</l>
+					<l dir="D4" inFront="false" leftArmInFront="true" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-4" />
+					</l>
+					<l dir="D6" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-6" />
+					</l>
+					<l dir="D7" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-7" />
+					</l>
+					<l dir="D8" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-8" />
+					</l>
+					<l dir="D9" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="true" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserRifle1-9" />
+					</l>
+				</weaponAnims>
+				<projectile aid="smallProjectileBlue3" />
+				<hit aid="3explosionBlue" />
+				<audio ignoreZoomLevel="false" noise="10.0">
+					<audio auid="2357" />
+				</audio>
+				<bulletEffect effect="393" />
+				<light color="3a4e59ff" powerTier="None" skipCenter="false">
+					<offset x="0" y="0" />
+					<flood brightness="300" distance="6" />
+				</light>
+				<damageTypes>
+					<l damageType="Bullet" type="Person">
+						<level max="5" min="3" />
+						<condition condition="165799303" />
+					</l>
+					<l damageTier="HeavyFurniture" type="Structure" />
+				</damageTypes>
+				<positions>
+					<l direction="D1" offX="-18" offY="22" />
+					<l direction="D2" offX="-6" offY="17" />
+					<l direction="D3" offX="11" offY="18" />
+					<l direction="D6" offX="18" offY="26" />
+					<l direction="D9" offX="17" offY="32" />
+					<l direction="D8" offX="4" offY="35" />
+					<l direction="D7" offX="-14" offY="37" />
+					<l direction="D4" offX="-16" offY="27" />
+				</positions>
+				<bulletEffectPos>
+					<l direction="D1" offX="8" offY="4" />
+					<l direction="D2" offX="0" offY="4" />
+					<l direction="D3" offX="-6" offY="4" />
+					<l direction="D6" offX="-8" offY="3" />
+					<l direction="D9" offX="-6" offY="-1" />
+					<l direction="D8" offX="0" offY="-4" />
+					<l direction="D7" offX="6" offY="-1" />
+					<l direction="D4" offX="8" offY="1" />
+				</bulletEffectPos>
+				<muzzle instance="10_AllMuzzles_muzzle2Blue" />
+			</weapon>
+			<backPackItem id="747" />
+		</item>
+		
+		<!-- Laser Pistol DISABLED FOR NOW DUE TO BROKEN ANIMS
+		
+		<item _annotation="Laser pistol" eid="0" handness="SingleHand" mid="165799400">
+			<name tid="165731011" />
+			<desc tid="165731012" />
+			
+
+			<anims>
+				<l dir="D1" inFront="true" leftArmInFront="true" leftBehindItem="false" offX="-1" offY="-2" rightArmInFront="false" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="false">
+					<animation aid="laserPistol1-3" />
+				</l>
+				<l dir="D6" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="2" offY="0" rightArmInFront="false" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserPistol1-2" />
+				</l>
+				<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="-4" offY="-4" rightArmInFront="false" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserPistol1-6" />
+				</l>
+				<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" offX="6" offY="-5" rightArmInFront="true" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="false">
+					<animation aid="laserPistol1-1" />
+				</l>
+				<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="false" offX="3" offY="-7" rightArmInFront="true" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserPistol1-9" />
+				</l>
+				<l dir="D8" inFront="false" leftArmInFront="true" leftBehindItem="false" offX="-3" offY="-2" rightArmInFront="true" rightBehindItem="false" type="ItemSingleOffseted" useFlipped="true">
+					<animation aid="laserPistol1-6" />
+				</l>
+			</anims>
+		
+			<invIcon aid="laserPistol1inv" />
+			<fabricateable cat="Weapons">
+				<GUIAnim aid="laserPistol01inv" />
+				<cost buildTools="25" partsPerTile="1" type="Defined">
+					<resources>
+						<l _annotation="Steel Plates" consumeEvery="3" element="1922" howMuch="1" />
+						<l _annotation="Plastics" consumeEvery="3" element="175" howMuch="1" />
+						<l _annotation="Energy Cell" consumeEvery="10" element="1926" howMuch="1" />
+					</resources>
+					<difficultyLevel level="2" skill="Industry" />
+				</cost>
+			</fabricateable>
+			<weapon fullLight="true" gunType="Pistol" id="0" speed="20" type="Gun" weaponSkillLevel="2">
+				<flare>
+					<flareProjectile aid="smallProjectileBlue2" />
+					<flareEffect effect="718" />
+				</flare>
+				<gunModes>
+					<l accuracy="5" afterCool="0.65" defMode="false" preCool="0.05" type="SnapShot" />
+				</gunModes>
+				<weaponAnims>
+					<l dir="D1" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-1" />
+					</l>
+					<l dir="D2" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-2" />
+					</l>
+					<l dir="D3" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-3" />
+					</l>
+					<l dir="D4" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-4" />
+					</l>
+					<l dir="D6" inFront="true" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-6" />
+					</l>
+					<l dir="D7" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-7" />
+					</l>
+					<l dir="D8" inFront="false" leftArmInFront="false" leftBehindItem="false" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="true">
+						<animation aid="laserPistol1-8" />
+					</l>
+					<l dir="D9" inFront="false" leftArmInFront="false" leftBehindItem="true" rightArmInFront="false" rightBehindItem="false" type="ItemSingle" useFlipped="false">
+						<animation aid="laserPistol1-9" />
+					</l>
+				</weaponAnims>
+				<projectile aid="smallProjectileBlue2" />
+				<hit aid="3explosionBlue" />
+				<audio ignoreZoomLevel="false" noise="10.0">
+					<audio auid="2357" />
+				</audio>
+				<bulletEffect effect="755" />
+				<light color="3a4e59ff" powerTier="None" skipCenter="false">
+					<offset x="0" y="0" />
+					<flood brightness="300" distance="6" />
+				</light>
+				<damageTypes>
+					<l damageType="Bullet" type="Person">
+						<level max="3" min="1" />
+						<condition condition="165799303" />
+					</l>
+					<l damageTier="HeavyFurniture" type="Structure" />
+				</damageTypes>
+
+				<positions>
+					<l direction="D1" offX="-18" offY="22" />
+					<l direction="D2" offX="-6" offY="17" />
+					<l direction="D3" offX="11" offY="18" />
+					<l direction="D6" offX="18" offY="26" />
+					<l direction="D9" offX="-12" offY="-20" />
+					<l direction="D8" offX="4" offY="35" />
+					<l direction="D7" offX="-14" offY="37" />
+					<l direction="D4" offX="-16" offY="27" />
+				</positions>
+				<bulletEffectPos>
+					<l direction="D1" offX="10" offY="4" />
+					<l direction="D2" offX="0" offY="4" />
+					<l direction="D3" offX="10" offY="4" />
+					<l direction="D6" offX="-8" offY="3" />
+					<l direction="D9" offX="-6" offY="-1" />
+					<l direction="D8" offX="0" offY="-4" />
+					<l direction="D7" offX="6" offY="-1" />
+					<l direction="D4" offX="8" offY="1" />
+				</bulletEffectPos>
+				
+		
+				
+				<muzzle instance="10_AllMuzzles_muzzle1Blue" />
+			</weapon>
+			<backPackItem id="747" />
+		</item>	
+		
+
+		-->
+		
+		
+	</Item>
+	
+	<CharacterCondition>
+	
+	<!-- Laser burn -->
+		<condition _annotation="Laser burn" addToLog="true" color="Auto" displayOnScreen="false" id="165799303" meta="Non" onlyOne="false" stackable="true">
+			<name tid="165799304" />
+			<desc tid="165799305" />
+			<applicableTo h="1" a="1" m="1" r="1" />
+			<recoverability>
+				<healOneLevel timeUnit="9.0" />
+			</recoverability>
+			<limit limit="10" />
+			<moodAffects>
+				<l change="0" type="Health">
+					<range max="-5" min="-12" />
+				</l>
+				<l change="0" type="Rest">
+					<range max="-2" min="-5" />
+				</l>
+				<l change="0" type="Safety">
+					<range max="-1" min="-3" />
+				</l>
+			</moodAffects>
+			<capabilityAffects>
+				<l setTo="True" type="CouldRestInMedical" />
+			</capabilityAffects>
+			<rateAffects>
+				<l change="5" type="SurrenderRate" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="1" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="15">
+					<condition condition="2057" />
+					<trait trait="0" />
+				</l>
+				<l afterLevel="1" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="5">
+					<condition condition="3133" />
+					<trait trait="0" />
+				</l>
+			</spawns>
+			<dmgType type="Temperature" />
+		</condition>
+		
+	<!-- Plasma burn -->
+		<condition _annotation="Plasma burn" addToLog="true" color="Auto" displayOnScreen="false" id="165799203" meta="Non" onlyOne="false" stackable="true">
+			<name tid="165799204" />
+			<desc tid="165799205" />
+			<applicableTo h="1" a="1" m="1" r="1" />
+			<recoverability>
+				<healOneLevel timeUnit="9.0" />
+			</recoverability>
+			<limit limit="10" />
+			<moodAffects>
+				<l change="0" type="Health">
+					<range max="-5" min="-10" />
+				</l>
+				<l change="0" type="Rest">
+					<range max="-2" min="-5" />
+				</l>
+				<l change="0" type="Safety">
+					<range max="-1" min="-3" />
+				</l>
+			</moodAffects>
+			<capabilityAffects>
+				<l setTo="True" type="CouldRestInMedical" />
+			</capabilityAffects>
+			<rateAffects>
+				<l change="5" type="SurrenderRate" />
+			</rateAffects>
+			<spawns>
+				<l afterLevel="1" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="15">
+					<condition condition="2057" />
+					<trait trait="0" />
+				</l>
+				<l afterLevel="1" once="false" onlyWhenArrives="true" onlyWhenIsRemoved="false" spawnPercentage="5">
+					<condition condition="3133" />
+					<trait trait="0" />
+				</l>
+			</spawns>
+			<dmgType type="Temperature" />
+		</condition>
+		
+	</CharacterCondition>
+	
+	<TradingValues>
+		<trade id="2">
+
+			<!-- Plasma Thrower -->
+
+			<t _annotation="Plasma thrower" availability="1" buyZeroPoint="50" defBuyDim="75" defHoldBack="0" defOfferBuyDim="35" desirability="5" eid="165799200" maxPrice="1000">
+				<desires>
+					<l availability="1" buyValue="65" desirability="75" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="100" overrideHoldBack="false" sellValue="75" side="Military" />
+				</desires>
+			</t>
+			
+			<!-- Laser Pistol -->
+			
+			<t _annotation="Laser pistol" availability="1" buyZeroPoint="50" defBuyDim="75" defHoldBack="0" defOfferBuyDim="35" desirability="10" eid="165799300" maxPrice="400">
+				<desires>
+					<l availability="4" buyValue="65" desirability="50" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="100" overrideHoldBack="false" sellValue="75" side="Military" />
+				</desires>
+			</t>
+			
+			<!-- Laser rifle -->
+			
+			<t _annotation="Laser rifle" availability="1" buyZeroPoint="50" defBuyDim="75" defHoldBack="0" defOfferBuyDim="35" desirability="10" eid="165799400" maxPrice="500">
+				<desires>
+					<l availability="4" buyValue="65" desirability="50" dontBuy="false" dontSell="false" holdBack="0" offerBuyValue="100" overrideHoldBack="false" sellValue="75" side="Military" />
+				</desires>
+			</t>
+	
+		</trade>
+	
+	
+	</TradingValues>
+
+</data>
